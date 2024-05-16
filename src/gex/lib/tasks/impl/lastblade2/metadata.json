@@ -1,0 +1,87 @@
+{
+    "in": {
+        "files": {
+            "c1.bin": {
+                "rel_path": ["Data", "rom"],
+                "filename": "c1.bin",
+                "versions": {
+                    "snk": {
+                        "size": 50331648,
+                        "crc": "A90252BD"
+                    }
+                }
+            },
+            "m1.bin": {
+                "rel_path": ["Data", "rom"],
+                "filename": "m1.bin",
+                "versions": {
+                    "snk": {
+                        "size": 131072,
+                        "crc": "ACF12D10"
+                    }
+                }
+            },
+            "p1.bin": {
+                "rel_path": ["Data", "rom"],
+                "filename": "p1.bin",
+                "versions": {
+                    "snk": {
+                        "size": 5242880,
+                        "crc": "839893C2"
+                    }
+                }
+            },
+            "s1.bin": {
+                "rel_path": ["Data", "rom"],
+                "filename": "s1.bin",
+                "versions": {
+                    "snk": {
+                        "size": 131072,
+                        "crc": "C9CD2298"
+                    }
+                }
+            },
+            "v1.bin": {
+                "rel_path": ["Data", "rom"],
+                "filename": "v1.bin",
+                "versions": {
+                    "snk": {
+                        "size": 16777216,
+                        "crc": "292764D2"
+                    }
+                }
+            }
+        }
+    },
+    "out": {
+        "files": [
+            {
+                "game": "The Last Blade 2",
+                "system": "NeoGeo",
+                "filename": "lastbld2.zip",
+                "status": "playable",
+                "notes": [],
+                "verify": {
+                    "type": "zip",
+                    "entries": {
+                        "243-c1.c1": {"size": 8388608, "crc": "5839444D"},
+                        "243-c2.c2": {"size": 8388608, "crc": "DD087428"},
+                        "243-c3.c3": {"size": 8388608, "crc": "6054CBE0"},
+                        "243-c4.c4": {"size": 8388608, "crc": "8BD2A9D2"},
+                        "243-c5.c5": {"size": 8388608, "crc": "6A503DCF"},
+                        "243-c6.c6": {"size": 8388608, "crc": "EC9C36D0"},
+                        "243-m1.m1": {"size": 131072, "crc": "ACF12D10"},
+                        "243-p1.p1": {"size": 1048576, "crc": "AF1E6554"},
+                        "243-p2.sp2": {"size": 4194304, "crc": "ADD4A30B"},
+                        "243-s1.s1": {"size": 131072, "crc": "C9CD2298"},
+                        "243-v1.v1": {"size": 4194304, "crc": "F7EE6FBB"},
+                        "243-v2.v2": {"size": 4194304, "crc": "AA9E4DF6"},
+                        "243-v3.v3": {"size": 4194304, "crc": "4AC750B2"},
+                        "243-v3.v4": {"size": 4194304, "crc": "F5C64BA6"}
+                    }
+                }
+            }
+        ],
+        "notes": {}
+    }
+}
