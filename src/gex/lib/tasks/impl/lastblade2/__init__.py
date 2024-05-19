@@ -4,7 +4,7 @@ import os
 from gex.lib.tasks.basetask import BaseTask
 from gex.lib.tasks import helpers
 from gex.lib.utils.blob import transforms
-from gex.lib.tasks.impl.lastblade2 import utils
+from gex.lib.utils.vendor.snk import unswizzle
 
 logger = logging.getLogger('gextoolbox')
 
@@ -43,7 +43,7 @@ Based on:
 
         logger.info("Processing CROM data...")
 
-        crom_odd, crom_even = utils.unswizzle(in_files['c1.bin'])
+        crom_odd, crom_even = unswizzle(in_files['c1.bin'])
 
         [c1, c3, c5] = transforms.equal_split(contents=crom_odd, num_chunks=3)
 

@@ -1,12 +1,10 @@
 '''Implementation of kof97: The King of Fighters '97: Global Match on Steam and Amazon'''
 import logging
 import os
-import lzma
 from gex.lib.tasks.basetask import BaseTask
 from gex.lib.tasks import helpers
 from gex.lib.utils.blob import transforms
-from gex.lib.tasks.impl.kof97_gm import utils
-from gex.lib.utils.blob import hash as hash_helper
+from gex.lib.utils.vendor.snk import unswizzle
 
 logger = logging.getLogger('gextoolbox')
 
@@ -16,7 +14,7 @@ class KingOfFightersGlobalMatchTask(BaseTask):
     _title = "The King of Fighters '97: Global Match"
     _details_markdown = '''
 This task covers The King of Fighters '97: Global Match.
-Including both Steam and Amazon Prime Gaming versions.
+Including Steam, GOG and Amazon Prime Gaming versions.
 
 Based on:
 - https://github.com/RedundantCich/goNCommand/blob/main/GoKOF97
@@ -46,7 +44,7 @@ Based on:
 
         logger.info("Processing CROM data...")
 
-        crom_odd, crom_even = utils.unswizzle(in_files['c1.bin'])
+        crom_odd, crom_even = unswizzle(in_files['c1.bin'])
 
         [c1, c3, c5] = transforms.custom_split(contents=crom_odd, chunk_sizes=[8388608, 8388608, 4194304])
 
