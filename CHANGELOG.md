@@ -1,3 +1,9 @@
+# Unreleased
+- Added Collections
+  - aca_kof98: ACA NEOGEO THE KING OF FIGHTERS '98 (Microsoft Store/Xbox)
+    - Recovers a MiSTer-tested `kof98h.zip` plus a MiSTer/NeoSD `.neo` image
+    - 15 source chips match the MAME parent set; ACA supplies a non-stock decrypted/patched P1
+
 # 0.2.0
 - Fixes
   - Remove external compiled dependencies 

@@ -1,0 +1,65 @@
+{
+    "in": {
+        "files": {
+            "kof98_exe": {
+                "rel_path": ["Content"],
+                "filename": "THE KING OF FIGHTERS 98.exe",
+                "versions": {
+                    "Microsoft Store 2.2.0.0": {
+                        "size": 42989056,
+                        "crc": "0862C1B1",
+                        "sha": "a7b608b6fbb5f4b9da498a4f635e14771fe6e8f0"
+                    }
+                }
+            }
+        }
+    },
+    "out": {
+        "files": [
+            {
+                "game": "The King of Fighters '98",
+                "system": "Neo Geo",
+                "filename": "kof98h.zip",
+                "status": "playable",
+                "notes": [1],
+                "verify": {
+                    "type": "zip",
+                    "entries": {
+                        "242-c1.c1": {"size": 8388608, "crc": "E564ECD6"},
+                        "242-c2.c2": {"size": 8388608, "crc": "BD959B60"},
+                        "242-c3.c3": {"size": 8388608, "crc": "22127B4F"},
+                        "242-c4.c4": {"size": 8388608, "crc": "0B4FA044"},
+                        "242-c5.c5": {"size": 8388608, "crc": "9D10BED3"},
+                        "242-c6.c6": {"size": 8388608, "crc": "DA07B6A2"},
+                        "242-c7.c7": {"size": 8388608, "crc": "F6D7A38A"},
+                        "242-c8.c8": {"size": 8388608, "crc": "C823E045"},
+                        "242-mg1.m1": {"size": 262144, "crc": "4EF7016B"},
+                        "242-pn1.p1": {"size": 1048576, "crc": "BA09784A"},
+                        "242-p2.sp2": {"size": 4194304, "crc": "980ABA4C"},
+                        "242-s1.s1": {"size": 131072, "crc": "7F7B4805"},
+                        "242-v1.v1": {"size": 4194304, "crc": "B9EA8051"},
+                        "242-v2.v2": {"size": 4194304, "crc": "CC11106E"},
+                        "242-v3.v3": {"size": 4194304, "crc": "044EA4E1"},
+                        "242-v4.v4": {"size": 4194304, "crc": "7985EA30"}
+                    }
+                }
+            },
+            {
+                "game": "The King of Fighters '98",
+                "system": "Neo Geo (MiSTer/NeoSD)",
+                "filename": "kof98h.neo",
+                "status": "playable",
+                "notes": [2],
+                "verify": {
+                    "type": "sha",
+                    "size": 89526272,
+                    "sha": "0ba5d1dab216c93d8cf04d7b567c14464085abfb"
+                }
+            }
+        ],
+        "notes": {
+            "1": "MiSTer-tested kof98h layout. ACA's P1 and the parent-set M1 do not match canonical kof98h CRCs, so strict MAME audits will report them.",
+            "2": "MiSTer/NeoSD container generated from the same playable ACA-derived ROM layout."
+        }
+    }
+}

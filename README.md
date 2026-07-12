@@ -116,6 +116,7 @@ These are noted in the documentation for each script. If you think a ROM is misi
 
 **Collection**                                  | **Status**     | **Verification** | **Notes**           
 ------------------------------------------------|----------------|------------------|---------------------------------------------------  
+ **ACA NEOGEO The King of Fighters '98**        | 100%           | Y                | MiSTer-tested `kof98h.zip` and `.neo`; P1/M1 have noncanonical CRCs.
  **Arcade Collection Anniversary Classics**     | 88%            | Y                | All games except scramble!
  **Atari Vault**                                | 90%            | Y                | Some arcade ROMs from this collection are incomplete.  
  **Blizzard Arcade Collection**                 | 100%           | Y                |   
@@ -173,4 +174,3 @@ These are noted in the documentation for each script. If you think a ROM is misi
  * Files are present that work as normal, but have bad CRCs. This may be due to copyright changes, etc., but ultimately does not match a known good source.
  * Publishers may offer modified ROMs - such as increased difficulty, theming, or new game modes - which are often not publicly tracked.
  * It may only work in older versions of emulators due to odd dumps, missing files, etc.
-
