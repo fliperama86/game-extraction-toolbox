@@ -117,6 +117,7 @@ These are noted in the documentation for each script. If you think a ROM is misi
 **Collection**                                  | **Status**     | **Verification** | **Notes**           
 ------------------------------------------------|----------------|------------------|---------------------------------------------------  
  **ACA NEOGEO The King of Fighters '98**        | 100%           | Y                | MiSTer-tested `kof98h.zip` and `.neo`; P1/M1 have noncanonical CRCs.
+ **ACA NEOGEO Waku Waku 7**                     | 100%           | Y                | Exact MAME ROMs; ZIP and `.neo` confirmed on MiSTer hardware.
  **Arcade Collection Anniversary Classics**     | 88%            | Y                | All games except scramble!
  **Atari Vault**                                | 90%            | Y                | Some arcade ROMs from this collection are incomplete.  
  **Blizzard Arcade Collection**                 | 100%           | Y                |   

@@ -3,6 +3,9 @@
   - aca_kof98: ACA NEOGEO THE KING OF FIGHTERS '98 (Microsoft Store/Xbox)
     - Recovers a MiSTer-tested `kof98h.zip` plus a MiSTer/NeoSD `.neo` image
     - 15 source chips match the MAME parent set; ACA supplies a non-stock decrypted/patched P1
+  - aca_wakuwak7: ACA NEOGEO WAKU WAKU 7 (Microsoft Store/Xbox)
+    - Recovers all 12 MAME-matching chip images as `wakuwak7.zip`
+    - Also produces a MiSTer-tested MiSTer/NeoSD `.neo` image
 
 # 0.2.0
 - Fixes
