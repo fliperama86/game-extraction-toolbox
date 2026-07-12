@@ -1,3 +1,9 @@
+# Unreleased
+- Added Collections
+  - aca_wakuwak7: ACA NEOGEO WAKU WAKU 7 (Microsoft Store/Xbox)
+    - Recovers all 12 MAME-matching chip images as `wakuwak7.zip`
+    - Also produces a MiSTer-tested MiSTer/NeoSD `.neo` image
+
 # 0.2.0
 - Fixes
   - Remove external compiled dependencies 
